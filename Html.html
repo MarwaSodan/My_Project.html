@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>My_Project</title>
+        <meta 
+            name="description "
+            content="This is our project"/>
+        <style></style>
+        <script></script>
+        <link rel="stylesheet"href="">
+    </head>
+    <body>
+        <div>
+            <h1>Example Responsive Form</h1>
+            <p>This Form breaks at 600px and goes from a <br> left-label form.At above <br> 1200px,the labels align right.</p>
+        </div>
+       
+        <form>
+            <div>
+                <label>First Name <br></label>
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <br>
+                <input type="email" required>
+            </div>
+            <hr>
+                <label for="Message">Message</label>
+                <br>
+                <textarea name="Message" cols="20" rows="20" placeholder="Message"></textarea>
+            <hr>
+            <label for="Select a Choice">Select a Choice</label>
+            <br>
+            <div>
+                <input id= "First" type="radio" name="Select a Choice" value="First Choice" checked>
+                <label for="First">First Choice</label>
+            </div>
+            <div>
+                <input id="Second"  type="radio" name="Select a Choice" value="Second Choice">
+                <label for="Second">Second Choice</label>
+            </div>
+            <div>
+                <input id="Third" type="radio" name="Select a Choice" value="Third Choice">
+                <label for="Third">Third Choice</label>
+            </div> 
+            <hr>
+            <label for="OS">Check All that Apply</label>
+            <br>
+            <div>
+                <input id= "one" type="checkbox" name="OS" value="Windows " checked>
+                <label for="one">Windows</label>
+            </div>
+            <div>
+                <input id="two"  type="checkbox" name="OS" value="Linux">
+                <label for="two">Linux</label>
+            </div>
+            <div>
+                <input id="Three" type="checkbox" name="OS" value="Mac">
+                <label for="Three">Mac</label>
+            </div>
+            <hr>
+            <label for="book">Select a Choice</label>
+            <br>
+            <select name="book" id="book" multiple>
+                <optgroup label="romantic books">
+                    <option value="1" selected>book1</option>
+                    <option value="2">book2</option>
+                    <option value="3">book3</option>
+                </optgroup>
+                <optgroup label="police books">
+                    <option value="4">book4</option>
+                    <option value="5">book5</option>
+                    <option value="6">book6</option>
+                </optgroup>
+            </select>
+            <hr>
+            <input type="submit" value="submit"> 
+        </form>
+    </body>  
+</html>
